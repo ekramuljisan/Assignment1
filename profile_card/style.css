@@ -1,0 +1,49 @@
+h1,h3{
+    font-family:monospace;
+    color:#ffffff;
+}
+p,span{
+    font-family: sans-serif;
+    color:#ffffff;
+}
+
+.card {
+    background-color:#430A5D;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height:auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: arial;
+    padding:40px 50px;
+    vertical-align:middle;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 20px;
+    margin-right:20px;     
+}
+
+.card img{
+    border-radius: 100%;
+}
+
+.card h1{
+    font-size:40px;
+}
+
+.card h3{
+    font-size:18px;
+    margin-top:-15px;
+    word-spacing: -0.2px;
+}
+
+.card p{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:14px;
+    letter-spacing: 0.5px;
+    line-height:22px
+}
+

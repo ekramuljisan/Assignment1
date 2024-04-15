@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+
+        <h1 class="text-center">Simple Calculator</h1>
+        <div class="col-lg-4">
+            <label class="form-label" for="">Number 1:-</label><br>
+            <input class="form-control" type="text" name="" id="number1" placeholder="Enter First Number" required>
+        </div>
+       
+    
+        <div class="col-lg-4">
+            <label class="form-label" for="">Operation:-</label>
+            <select id="calculate" class="form-select">
+                <option value="+">Addition (+)</option>
+                <option value="-">Subtraction (-)</option>
+                <option value="*">Multiplication (*)</option>
+                <option value="/">Division (/)</option>
+            </select>
+        </div>
+        
+        <div class="col-lg-4">
+            <label class="form-label" for="">Number 2:-</label><br> 
+            <input class="form-control" type="text" name="" id="number2" placeholder="Enter Second Number"><br>
+        </div>
+
+        <div class="col-lg-1"> 
+            <button id="my-btn" class="btn btn-primary my-button" onclick="calculator()">Calculate</button>
+        </div>
+        
+        <div id="result" class="col-lg-12 border border-white alert alert-danger mt-3 mx-2">
+                Please Enter Valid Number.
+        </div>
+       
+        
+     
+      </div>
+    </div>
+    
+      
+    
+<script src="js/main.js"></script>
+<script>src="js/bootstrap.bundle.js"</script>
+</body>
+</html>
